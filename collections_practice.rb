@@ -36,3 +36,12 @@ def sum_array(array)
    array.each {|num| sum += num}
    sum
 end
+
+def add_s (array)
+  i = 0
+  while i < array.length do
+    if i != 1
+      array[i] << "s"
+    end
+  end
+end
