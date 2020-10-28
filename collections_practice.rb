@@ -31,3 +31,7 @@ end
 def find_a(array)
   array.select {|name| name[0] == "a"}
 end
+def sum_array(array)
+   sum = 0
+   array.each {|num| sum += num}
+end
